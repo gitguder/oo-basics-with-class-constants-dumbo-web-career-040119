@@ -19,5 +19,6 @@ class Book
   
   def genre
     GENRES.uniq
+  end
 
 end
