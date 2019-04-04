@@ -17,6 +17,7 @@ class Book
     GENRES << genre
   end
   
-  
+  def genre
+    GENRES.uniq
 
 end
