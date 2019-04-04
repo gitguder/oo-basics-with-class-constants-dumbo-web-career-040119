@@ -16,5 +16,7 @@ class Book
     self.genre = genre
     GENRES << genre
   end
+  
+  
 
 end
