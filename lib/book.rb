@@ -14,7 +14,7 @@ class Book
 
   def genre=(genre)
     self.genre = genre
-    GENRES.uniq << genre
+    GENRES << genre
   end
 
 end
